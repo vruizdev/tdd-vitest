@@ -1,0 +1,25 @@
+{
+  "name": "tdd-vitest",
+  "version": "1.0.0",
+  "description": "Curso de Test Driven Development (TDD) desde cero con JavaScript, React y Vitest",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "nsc": "node-structure-cli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-structure-cli": "1.0.2"
+  },
+  "devDependencies": {
+    "standard": "17.1.2",
+    "vitest": "2.1.5"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
